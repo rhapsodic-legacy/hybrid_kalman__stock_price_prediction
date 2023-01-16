@@ -1,3 +1,3 @@
 # Shopify_data
 
-### data is good. Very, very good. 
+### data is great. Very good. 

@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 class DeepKalmanNetwork(nn.Module):
     """
     Neural network component that learns to predict state transitions
-    and observation mappings for the Kalman filter
+    and observation mappings for the Kalman filter.
     """
     def __init__(self, input_dim: int, hidden_dim: int = 64, num_layers: int = 2):
         super(DeepKalmanNetwork, self).__init__()
@@ -55,7 +55,7 @@ class DeepKalmanNetwork(nn.Module):
         self._initialize_weights()
     
     def _initialize_weights(self):
-        """Initialize network weights to prevent NaN"""
+        # Initialize network weights to prevent NaN.
         for m in self.modules():
             if isinstance(m, nn.Linear):
                 nn.init.xavier_uniform_(m.weight)
@@ -74,9 +74,7 @@ class DeepKalmanNetwork(nn.Module):
         return next_state, observation, process_noise_diag, obs_noise
 
 class HybridKalmanFilter:
-    """
-    Hybrid Kalman Filter combining deep learning with traditional Kalman filtering
-    """
+    # Hybrid Kalman Filter combining deep learning with traditional Kalman filtering.
     def __init__(self, state_dim: int, learning_rate: float = 0.001):
         self.state_dim = state_dim
         self.device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -122,9 +120,7 @@ class HybridKalmanFilter:
             self.state = torch.clamp(self.state, min=-100, max=100)
 
 class StockMarketPredictor:
-    """
-    Main class for stock market prediction using Hybrid Kalman Filter
-    """
+    # Main class for stock market prediction using Hybrid Kalman Filter.
     def __init__(self, state_dim: int = 5):
         self.state_dim = state_dim
         self.scaler = StandardScaler()

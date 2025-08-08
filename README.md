@@ -16,7 +16,7 @@ The stock market is a noisy, dynamic system, challenging to predict with traditi
  
 The repository contains a single folder, `hybrid_filter`, with three files: 
    
-- **`hybrid_filter.py`**: The core Python script implementing the Hybrid Kalman Filter. It includes:
+- **`hybrid_filter.py`**: The core Python script implementing the Hybrid Kalman Filter. It includes: 
   - `DeepKalmanNetwork`: A PyTorch neural network for learning state transitions, observations, and noise.
   - `HybridKalmanFilter`: Combines the neural network with Kalman Filter logic.
   - `StockMarketPredictor`: Handles data preprocessing, training, and prediction.

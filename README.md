@@ -4,7 +4,7 @@
 
 This repository implements a **Hybrid Kalman Filter**, a powerful tool that combines the classical Kalman Filter with deep learning to predict stock market prices or other noisy time-series data. Designed for Python programmers and machine learning enthusiasts, it provides a robust framework for modeling complex, non-linear dynamics in financial markets. The repo serves as an educational and practical resource, demonstrating how to blend traditional signal processing with neural networks for real-world applications. 
   
-## Why This Repository Exists   
+## Why This Repository Exists    
  
 The stock market is a noisy, dynamic system, challenging to predict with traditional or purely machine learning-based methods. The Hybrid Kalman Filter addresses this by leveraging the Kalman Filter's state estimation and neural networks' ability to learn non-linear patterns. This repo exists to: 
  

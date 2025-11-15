@@ -9,7 +9,7 @@ This repository implements a **Hybrid Kalman Filter**, a powerful tool that comb
 The stock market is a noisy, dynamic system, challenging to predict with traditional or purely machine learning-based methods. The Hybrid Kalman Filter addresses this by leveraging the Kalman Filter's state estimation and neural networks' ability to learn non-linear patterns. This repo exists to:    
      
 - Provide a working implementation of a Hybrid Kalman Filter tailored for stock market prediction.     
-- Offer educational content explaining the model's mechanics and significance.        
+- Offer educational content explaining the model's mechanics and significance.         
 - Inspire developers to adapt the approach to other time-series tasks, such as sensor data or weather forecasting.         
     
 ## Repository Contents       

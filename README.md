@@ -11,7 +11,7 @@ The stock market is a noisy, dynamic system, challenging to predict with traditi
 - Provide a working implementation of a Hybrid Kalman Filter tailored for stock market prediction.      
 - Offer educational content explaining the model's mechanics and significance.          
 - Inspire developers to adapt the approach to other time-series tasks, such as sensor data or weather forecasting.         
-    
+     
 ## Repository Contents       
      
 The repository contains a single folder, `hybrid_filter`, with three files:       

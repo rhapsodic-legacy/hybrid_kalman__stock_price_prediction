@@ -13,7 +13,7 @@ The stock market is a noisy, dynamic system, challenging to predict with traditi
 - Inspire developers to adapt the approach to other time-series tasks, such as sensor data or weather forecasting.             
       
 ## Repository Contents       
-     
+      
 The repository contains a single folder, `hybrid_filter`, with three files:       
     
 - **`hybrid_filter.py`**: The core Python script implementing the Hybrid Kalman Filter. It includes:  

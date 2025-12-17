@@ -1,4 +1,4 @@
-# Hybrid Kalman Filter for Stock Market Prediction      
+# Hybrid Kalman Filter for Stock Market Prediction       
       
 ## Overview       
 
